@@ -14,10 +14,10 @@ import static io.r2dbc.spi.ConnectionFactoryOptions.PASSWORD;
 import static io.r2dbc.spi.ConnectionFactoryOptions.PORT;
 import static io.r2dbc.spi.ConnectionFactoryOptions.USER;
 
-@Configuration
-public class R2DBCConfig {
+//@Configuration
+public class R2DBCConfig_Postgres {
 
-    @Bean
+//    @Bean
     public ConnectionFactory connectionFactory() {
         return ConnectionFactories.get(
                 ConnectionFactoryOptions.builder()

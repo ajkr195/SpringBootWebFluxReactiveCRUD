@@ -32,6 +32,15 @@ public class Product implements Persistable<Integer> {
 		this.price = price;
 		this.newProduct = newProduct;
 	}
+	
+	
+
+	public Product(Integer id, String description, Double price) {
+		super();
+		this.id = id;
+		this.description = description;
+		this.price = price;
+	}
 
 	public Product() {
 		super();
